@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+<!--uso etiquetas semanticas, las que le dicen al navegador que estamos ponendo-->
+<header>
+    <!--etiqueta semantica header-->
+    <nav>
+    <!--etiqueta semantica nav ul>li*5-->
+    <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="ubicacion.html">Ubicacion</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    
+    </nav>
+    
+    </header>    
+
+
+    
+<!--seria un solo main por pagina-->
+<main>
+    <h1>Contacto</h1>
+<form>
+    <div>
+        <label for="nombre-apellido">Nombre y Apellido</label>
+        <input type="text" id="nombre-apellido" required>
+   </div>
+   <div>
+        <label for="dni">DNI</label>
+        <input type="number" id="dni" required>
+   </div>
+   <div>
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono">
+  </div>
+
+  <div>
+    <p>Genero</p>
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino">
+    <label for="femenino">Femenino</label>
+    <input type="radio" name="genero" id="femenino">
+    <label for="nobinario">No binario</label>
+    <input type="radio" name="genero" id="nobinario">
+</div>
+
+<div>
+    <label for="comentario">Comentario</label>
+    <textarea id="comentario" cols="30" rows="10"> </textarea>
+
+</div>
+
+<div>
+    <input type="submit" value="Enviar"  id="Enviar">
+    <input type="reset" VAlue= "borrar" id="telefono">
+</div>
+
+
+
+
+</form>
+
+
+</main>
+
+<footer>
+    <p>
+        Sitio Web creado en coderhouse &copy;
+    </p>
+    <!--iconnify, iconos de redes sociales, etc-->
+
+  </footer>   
+
+    
+</body>
+</html>
